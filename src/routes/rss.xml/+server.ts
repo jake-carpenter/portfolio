@@ -6,6 +6,7 @@ import { filterPosts, importPosts } from '$lib/data/blog-posts/utils';
 export const prerender = true;
 
 export async function GET() {
+  
   const allPosts = importPosts(true);
   const filteredPosts = filterPosts(allPosts);
 
