@@ -1,29 +1,19 @@
 <script>
-	import SparklingHighlight from '$lib/components/molecules/SparklingHighlight.svelte';
 	import Socials from '$lib/components/molecules/Socials.svelte';
 	import Image from '../atoms/Image.svelte';
 </script>
 
 <section id="about">
 	<div class="info">
-		<h2>
-			This is a catchy headline that
-			<SparklingHighlight color="secondary">sparkles!</SparklingHighlight>
-		</h2>
+		<h2>Full-stack mobile developer</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
+			Proven software engineer with full-stack experience using React Native / Expo to deliver
+			mobile solutions and the web services to support them in the .NET ecosystem.
 		</p>
 		<div class="socials">
 			<span>Socials:</span>
 			<Socials />
 		</div>
-	</div>
-	<div class="image">
-		<Image
-			src="/images/sample-image.png"
-			alt="Sample for the static template"
-		/>
 	</div>
 </section>
 
@@ -77,11 +67,6 @@
 					display: none;
 				}
 			}
-		}
-
-		.image {
-			width: 220px;
-			height: 220px;
 		}
 	}
 </style>

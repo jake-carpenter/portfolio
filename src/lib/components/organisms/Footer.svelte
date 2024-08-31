@@ -10,18 +10,17 @@
 		<FooterWave />
 	</div>
 	<div class="content">
-		<div class="copyright">
-			This template was built by <a
-				href="https://fantinel.dev?utm_source=site-template"
-				target="_blank"
-				rel="noopener noreferrer">Matheus Fantinel</a
-			>.
-		</div>
 		<div class="credits">
 			Powered by <a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer"
 				>SvelteKit</a
 			>. Icons by
-			<a href="https://iconoir.com/" target="_blank" rel="noopener noreferrer">Iconoir</a>.
+			<a href="https://iconoir.com/" target="_blank" rel="noopener noreferrer">Iconoir</a>. Template
+			by
+			<a
+				href="https://fantinel.dev?utm_source=site-template"
+				target="_blank"
+				rel="noopener noreferrer">Matheus Fantinel</a
+			>.
 		</div>
 		<div class="socials">
 			<Socials />
@@ -50,7 +49,7 @@
 
 			.credits {
 				font-weight: 400;
-				font-size: 90%;
+				font-size: 70%;
 				color: var(--color--text-shade);
 			}
 
