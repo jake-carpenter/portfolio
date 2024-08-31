@@ -23,6 +23,9 @@
 					tags={post.tags}
 				/>
 			{/each}
+			{#if posts.length === 0}
+				<p class="empty">No posts found.</p>
+			{/if}
 		</div>
 	</ContentSection>
 </div>
@@ -63,6 +66,11 @@
 			:global(:nth-child(6n + 6)) {
 				grid-column: span 2;
 			}
+		}
+
+		.empty {
+			margin-top: 20rem;
+			margin-bottom: 20rem;
 		}
 	}
 </style>
