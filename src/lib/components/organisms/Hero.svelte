@@ -13,7 +13,7 @@
 	</p>
 	<div class="ctas">
 		<Sparkles>
-			<Button href="https://github.com/matfantinel/sveltekit-static-blog-template">
+			<Button href="https://github.com/jake-carpenter">
 				<GitHubIcon slot="icon" />
 				Github
 			</Button>

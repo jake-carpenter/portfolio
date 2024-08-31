@@ -15,7 +15,7 @@
 		<MastodonIcon />
 	</a>
 	<a
-		href="https://github.com/matfantinel/sveltekit-static-blog-template"
+		href="https://github.com/jake-carpenter"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See my GitHub profile"
